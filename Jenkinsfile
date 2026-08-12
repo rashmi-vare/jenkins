@@ -9,11 +9,11 @@ pipeline {
         }
     }
 }
-post{
-        success{
+post {
+        success {
             echo'pipeline executed succesfully!'
         }
-        failure{
+        failure {
             echo'pipeline failed.Please check the logs for details.'
         }
 }

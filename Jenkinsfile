@@ -8,7 +8,8 @@ pipeline {
             }
         }
     }
-    post{
+}
+post{
         success{
             echo'pipeline executed succesfully!'
         }
@@ -16,5 +17,5 @@ pipeline {
             echo'pipeline failed.Please check the logs for details.'
         }
 }
-}
+
 
